@@ -16,11 +16,18 @@
   letter-spacing: 1px;
   color: white;
   cursor: pointer;
+  transition: transform 0.3s;
 }
 #events button:hover{
   border: solid #4e92ff;
   background-color: #4e92ff;
+  transform: scale(1.1) ;
+}
 
+#events button:disabled{
+  background-color:lightgrey;
+  border: solid lightgrey;
+  color: white;
 }
 
 #events h4 {
